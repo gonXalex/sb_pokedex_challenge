@@ -123,7 +123,7 @@ function App() {
                   <button 
                     type="button" 
                     key={`${pokemon.number}-${index}`} 
-                    className='col-span-1'
+                    className='col-span-3 md:col-span-1'
                     onClick={() => handleSelectPokemon(pokemon)}
                   >
                     <Card pokemon={pokemon} />

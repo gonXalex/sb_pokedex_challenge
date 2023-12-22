@@ -8,7 +8,7 @@ type CardType = {
 export default function Card(props: CardType) {
     const { pokemon } = props;
     return(
-        <div className="relative flex flex-col items-center gap-y-2 w-full rounded-[20px] bg-white shadow-lg pt-[100px] pb-6 max-w-[350px]">
+        <div className="relative flex flex-col mx-auto items-center gap-y-2 w-full rounded-[20px] bg-white shadow-lg pt-[100px] pb-6 max-w-[350px]">
             <div className="absolute top-[-40px] left-[calc(50%-50px)] max-w-[100px] w-full">
                 <img src={pokemon.imageUrl} className="w-full h-full object-contain" />
             </div>
